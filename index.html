@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maratona - Discover</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <img src="assets/logo.svg" alt="Logo Dev Finance">
+    </header>
+
+    <main class="container">
+        <section id="balance">
+            <h2 class="sr-only">Balanço</h2>
+
+            <div class="card">
+                <h3>Entradas</h3>
+                <p>R$ 5.000,00</p>
+            </div>
+            <div class="card">
+                <h3>Saídas</h3>
+                <p>R$ 2.000,00</p>
+            </div>
+            <div class="card total">
+                <h3>Total</h3>
+                <p>R$ 3.000,00</p>
+            </div>
+        </section>
+    
+        <section id="transaction">
+            <h2 class="sr-only">Transações</h2>
+
+            <a href="#" class="button nwe">+ Nova Transição</a>
+
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="description">Luz</td>
+                        <td class="expense">- R$ 500,00</td>
+                        <td class="date">23/01/2202</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Website</td>
+                        <td class="income">R$ 5.000,00</td>
+                        <td class="date">21/01/2202</td>
+                    </tr>
+                    <tr>
+                        <td class="description">Internet</td>
+                        <td class="expense">- R$ 165,00</td>
+                        <td class="date">10/01/2202</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer id="footer">Dev.Finance$</footer>
+</body>
+</html>
